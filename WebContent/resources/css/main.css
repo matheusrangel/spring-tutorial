@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+h4 {
+	color: #e57373;																																																																																																																																																																																																		
+}
+
+
+
+
+
+.message {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+span.subject {
+	font-size: large;
+	color: brown;
+	font-weight: bold;
+}
+
+span.messagebody {
+	display: block;
+	font-style: italic;
+}
+
+span.name {
+	color: brown;
+	font-size: small;	
+}
+
+.replyArea {
+	height: 200px;
+	width: 250px;
+}
+
+.replyForm {
+	padding: 10px;
+	display: none;
+}
+
+.replyForm > input[type="button"] {
+	display: block;
+}
+
+.link {
+	color: brown;
+}
+
+span.alert {
+	display: block;
+	font-weight: bold;
+	color: green;
+}
